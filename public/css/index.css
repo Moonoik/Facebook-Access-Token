@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'motion-control';
+  src: url("/font/MotionControl-Bold.eot");
+  src: url("/font/MotionControl-Bold.woff") format('woff');
+}
+@font-face {
+  font-family: 'NanumSquare';
+  src: url("/font/NanumSquareR.eot");
+  src: url("/font/NanumSquareR.woff") format('woff');
+}
+html,
+body {
+  font-size: 14px;
+  font-family: 'motion-control';
+  padding: 0 0;
+  margin: 0;
+}
+#bodyFull {
+  font-family: 'NanumSquare';
+  font-weight: bold;
+  text-align: center;
+}
+#bodyFull .box {
+  width: 70%;
+  margin: 5em auto;
+}
+#bodyFull .box p {
+  line-height: 1.6;
+}
+#bodyFull .box textarea {
+  width: 100%;
+  font-size: 2em;
+  height: 1.25em;
+  padding: 0.25em;
+  font-family: 'NanumSquare';
+  font-weight: bold;
+  text-align: center;
+  resize: none;
+}
